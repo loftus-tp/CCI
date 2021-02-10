@@ -169,5 +169,5 @@ function triggerFlow_CreateAdobeAgreement() {
     if (request.readyState == 4 && request.status == 200) {
         agreementGuid = request.responseText;
         if (LOG) console.log('agreementGuid:', agreementGuid);
-    } 
+    }
 }
